@@ -52,7 +52,7 @@ function SignupScreen() {
             <h1>Sign Up</h1>
             <input  ref={emailRef} type='Email' placeholder='Email'></input>
             <input ref={passwordRef}  type='password' placeholder='password'></input>
-            <button type='submit' onClick={signIn} >Sign Up</button>
+            <button type='submit' onClick={signIn} >Sign In</button>
 
             <h4> <span className='signupScreen_gray'>New to Netflix. </span> 
             <span className='signupScreen_link' onClick={register} >SignUp</span>

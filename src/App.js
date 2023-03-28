@@ -7,7 +7,7 @@ import { auth } from './firebase';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes as Switch,
   Route,
   
   
@@ -41,7 +41,7 @@ function App() {
       }
       else{
         // 
-        dispatch(logout);
+        dispatch(logout());
       }
     });
 
@@ -59,9 +59,9 @@ function App() {
             {/* <ProfileScreen/> */}
 
           </Route>
-          <Route exact path="/">
+          <Route exact path="/" element={<Homescreen/>}>
             
-          <Homescreen/>
+            
 
           </Route>
         </Switch>)
