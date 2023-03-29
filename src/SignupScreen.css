@@ -5,6 +5,9 @@
     margin-right: auto;
     background-color: rgb(0,0,0,0.85);
 }
+.signup_title{
+    padding-bottom: 20px;
+}
 
 .signupScreen >form{
     display: grid;

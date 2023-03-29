@@ -49,7 +49,7 @@ function SignupScreen() {
   return (
     <div className='signupScreen'>
         <form>
-            <h1>Sign Up</h1>
+            <h1 className='signup_title'>Sign Up</h1>
             <input  ref={emailRef} type='Email' placeholder='Email'></input>
             <input ref={passwordRef}  type='password' placeholder='password'></input>
             <button type='submit' onClick={signIn} >Sign In</button>
