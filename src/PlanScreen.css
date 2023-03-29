@@ -1,0 +1,31 @@
+.planScreen_plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+/* .plansScreen__renewal{
+    
+} */
+
+.planScreen_plan:hover {
+    opacity: 1;
+    transition: all 100ms;
+}
+
+.planScreen_plan > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #E50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.planScreen_plan--disabled > button {
+    background-color: gray !important;
+    /* pointer-events: none; */
+    cursor: not-allowed;
+}

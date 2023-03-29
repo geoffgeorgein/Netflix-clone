@@ -4,6 +4,7 @@ import { selectUser } from './features/userSlice';
 import Nav from './Nav';
 import { auth } from './firebase';
 import './ProfileScreen.css';
+import PlanScreen from './PlanScreen';
 
 
 function ProfileScreen() {
@@ -24,6 +25,8 @@ function ProfileScreen() {
 
                 <div className='profileScreen_plans'>
                   <h3>Plans</h3>
+
+                  <PlanScreen/>
                 </div>
 
                 <div className='profileScrren_details' >

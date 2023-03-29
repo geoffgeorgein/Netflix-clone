@@ -21,8 +21,8 @@ import ProfileScreen from './ProfileScreen';
 function App() {
 
   const user=useSelector(selectUser);
-  console.log("User");
-  console.log(user);
+  // console.log("User");
+  // console.log(user);
   const dispatch=useDispatch();
   
 
