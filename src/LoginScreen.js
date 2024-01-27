@@ -6,7 +6,7 @@ import SignupScreen from './SignupScreen';
 function LoginScreen() {
 
   const [signIn,setsignIn]=useState(false);
-
+ 
   return (
     <div className='loginScreen'>
 
@@ -20,7 +20,7 @@ function LoginScreen() {
         <button className='loginScreen_button' onClick={()=>setsignIn(true)} >Sign In</button>
 
         <div className='loginScreen_gradient' ></div>
-      
+       
       </div>
       <div className='loginScreen_body'>
 

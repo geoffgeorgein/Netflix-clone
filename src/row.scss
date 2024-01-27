@@ -1,3 +1,5 @@
+@import "./global.scss";
+
 .row{
     color:white;
     margin-left: 20px;
@@ -8,6 +10,10 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    
+    @include mobile{
+        flex-wrap: wrap ;
+    }
 }
 .row_posters::-webkit-scrollbar{
     display:none;
@@ -17,6 +23,7 @@
     max-height:100px;
     margin-right: 10px;
     object-fit: contain;
+    margin-bottom: 20px;
     transition: transform 450ms;
 }
 .row_poster:hover{

@@ -5,7 +5,7 @@ import { auth } from './firebase';
 //  import { createUserWithEmailAndPassword } from "firebase/auth";
 
  
-
+ 
 function SignupScreen() {
 
   const emailRef=useRef(null);
@@ -27,7 +27,7 @@ function SignupScreen() {
     .catch((error)=>{
       alert(error.message);
     })
-
+ 
   };
 
   const signIn =(e)=>{
